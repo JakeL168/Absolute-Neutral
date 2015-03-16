@@ -1,0 +1,43 @@
+html, body
+{
+	background: #843b62;
+}
+
+@font-face 
+{
+	font-family: "Pixel6";
+	src: url( font/SDS_6x6.ttf );
+}
+
+@font-face 
+{
+	font-family: "Pixel8";
+	src: url( font/SDS_8x8.ttf );
+}
+
+h1, h3
+{
+	font-family: "Pixel6";
+	text-align: center;
+	color: #ffb997;
+}
+
+p, a
+{
+	font-family: "Verdana";
+	text-align: center;
+	color: #f67e7d;
+}
+
+#title
+{
+	text-align: center;
+}
+
+.container
+{
+	position: relative;
+	margin: 0 auto;
+	width: 500px;
+	text-align: center;
+}
